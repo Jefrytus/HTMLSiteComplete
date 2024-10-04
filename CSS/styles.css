@@ -935,3 +935,51 @@ a{
         font-size: 1.6rem;
     }
 }
+
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #fff;
+    max-width: 100%;
+    margin: auto;
+}
+
+.banner__button {
+    justify-content: end ;
+    padding: 2rem;
+    align-self: center;
+}
+
+.banner__header {
+    margin: 5px 0px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+.banner__body {
+    margin: 5px 0px;
+    font-weight: normal;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: var(--color-primary);
+        padding: 2rem;
+        border-radius: 1rem;
+        max-width: 50%;
+    }
+    .banner__header {
+        text-align: center;
+    }
+    .banner
+}
