@@ -972,14 +972,14 @@ a{
     .banner {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         background: var(--color-primary);
         padding: 2rem;
         border-radius: 1rem;
         max-width: 50%;
+        margin: auto;
     }
     .banner__header {
         text-align: center;
     }
-    .banner
+    
 }
