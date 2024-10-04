@@ -188,6 +188,18 @@ a{
     fill:var(--color-headings)
 }
 
+.icon--tertiary {
+    fill: #deb684;
+}
+
+.icon--quaternary {
+    fill: #f2b2be;
+}
+
+.icon--quinary {
+    fill: #c5b7fe;
+}
+
 .icon--white {
     fill: #fff;
 }
